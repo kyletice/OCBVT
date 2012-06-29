@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assemblyManifest>
+  <metadata>
+    <name>Gallio</name>
+    <description>Gallio automation platform</description>
+    <categoryId>CLR2.0</categoryId>
+    <groupId>Gallio</groupId>
+    <artifactId>Gallio</artifactId>
+    <version>3.3.0.0</version>
+    <framework>2.0.50727</framework>
+    <projectType>Library</projectType>
+    <buildMode>Release</buildMode>
+  </metadata>
+  <dependencies>
+    <compile>
+    </compile>
+    <runtime>
+    </runtime>
+    <system>
+    </system>
+  </dependencies>
+  <resources>
+  </resources>
+  <database>
+    <procedures>
+    </procedures>
+  </database>
+  <configuration>
+    <envNeutral>
+    </envNeutral>
+    <envSpecific>
+    </envSpecific>
+  </configuration>
+</assemblyManifest>

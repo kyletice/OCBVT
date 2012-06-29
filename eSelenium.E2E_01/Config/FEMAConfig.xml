@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<appSettings>
+
+
+  <!-- **************************Settings Specific to Testing****************************************************** -->
+  <!-- The Higher the multiplier the slower the test-->
+  <add key="speedMultiplier" value="1.25" />
+  <add key="TimeoutMS" value="45000" />
+  <add key="timeoutSeconds" value="45" />
+  <add key="AssertOrVerify" value="Verify" />
+  <add key="runningRemotely" value="False" />
+  <add key="useExternalFiles" value="False" />
+  <add key="onAMac" value="False" />
+
+
+  <!-- Uncomment and fill out if you are running remote tests 
+  <add key="runningRemotely" value="True" />
+  <add key="onAMac" value="True" />
+  <add key="useExternalFiles" value="True" />
+  <add key="externalDirectory" value="/Users/qatest/Documents/DotNextTestFiles" /> -->
+
+ 
+  
+  <!-- Standard settings should exist in every env  -->
+  <add key="clientString" value="corin" />
+  <add key="IsCMSEp" value ="false"/>
+  <add key="username" value="testprofdv" />
+  <add key="password" value="testprofdv" />
+  <add key="studentUsername" value="teststuddv" />
+  <add key="studentPassword" value="teststuddv" />
+  <add key="courseName" value="CC100 Digital Vellum" />
+  <add key="termName" value="TestTermSM" />
+
+  <!-- Production settings 
+<add key="clientString" value="ctstate" />
+<add key="IsCMSEp" value ="true"/>
+<add key="username" value="nicholas_ctprof" />
+<add key="password" value="ctprof" />
+<add key="studentUsername" value="nicholas_ctstud" />
+<add key="studentPassword" value="ctstud" />
+<add key="courseName" value="Nicks Test Course" />
+<add key="termName" value="Nicks NEXT Term" />-->
+
+
+<add key="EnvDomain" value=".ecollege-labs.com/" />
+<add key="courseID" value="2022062" />
+
+<!--  **************************QA PRod******************************************************** 
+    <add key="EnvDomain" value=".qaprod.ecollege.com/" />
+    <add key="courseID" value="2170185" /> -->
+
+  <!--  **************************QA Maint******************************************************** 
+  <add key="EnvDomain" value=".qamaint.ecollege.com/" />-->
+
+  
+ <!--  **************************QA PRod******************************************************** 
+    <add key="EnvDomain" value=".qaprod.ecollege.com/" />
+    <add key="courseID" value="2170185" /> -->
+
+  <!--  **************************Lab manager******************************************************** 
+<add key="EnvDomain" value=".ecollege-labs.com/" /> -->
+
+<!--  **************************Production******************************************************** 
+  <add key="EnvDomain" value=".live.ecollege.com/" /> -->
+
+  <!-- Set to true if you want the test to start selenium on its own and false if you already have selenium running-->
+  <add key ="startServer" value="false"/>
+
+  <add key="seleniumBrowser" value="*chrome" />
+  <!--<add key="seleniumBrowser" value="*firefox" />-->
+  <add key="seleniumPort" value="4444" />
+  <add key="seleniumHost" value="localhost" />
+  <add key="protocol" value="http" />
+  <add key="checkForUnsupportedBrowser" value="True" />
+
+  <!-- Logging Settings-->
+  <add key="requiresInputFile" value="false" />
+
+  <add key="requiresResultFile" value="true" />
+  <add key="resultFileDirectory" value="C:\SeleniumTestResults" />
+  <add key="resultFilePrefix" value="SeleniumResults" />
+
+  <add key="requiresLogFile" value="true" />
+  <add key="logFileDirectory" value="C:\SeleniumTestLogs" />
+  <add key="logFilePrefix" value="SeleniumTests" />
+
+</appSettings>
+
+
+

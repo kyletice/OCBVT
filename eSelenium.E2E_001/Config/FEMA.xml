@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="applicationSettings" type="System.Configuration.ApplicationSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="FEMASeleniumm.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <applicationSettings>
+        <FEMASeleniumm.Properties.Settings>
+            <setting name="seleniumHost" serializeAs="String">
+                <value>localhost</value>
+            </setting>
+            <setting name="seleniumPort" serializeAs="String">
+                <value>4444</value>
+            </setting>
+            <setting name="seleniumBrowser" serializeAs="String">
+                <value>*firefox</value>
+            </setting>
+            <setting name="envUrl" serializeAs="String">
+                <value>http://corin.ecollege-labs.com</value>
+            </setting>
+            <setting name="timeoutInSec" serializeAs="String">
+                <value>30000</value>
+            </setting>
+            <setting name="runInMaximizedWindow" serializeAs="String">
+                <value>true</value>
+            </setting>
+            <setting name="environment" serializeAs="String">
+                <value>labmanager</value>
+            </setting>
+            <setting name="courseName" serializeAs="String">
+                <value>MM100 Algebra - Statistics</value>
+            </setting>
+            <setting name="termName" serializeAs="String">
+                <value>TestTermSM</value>
+            </setting>
+            <setting name="profuserName" serializeAs="String">
+                <value>testprofsm</value>
+            </setting>
+            <setting name="profPassWord" serializeAs="String">
+                <value>test</value>
+            </setting>
+            <setting name="studUserName" serializeAs="String">
+                <value>teststudsm</value>
+            </setting>
+            <setting name="studPassWord" serializeAs="String">
+                <value>test</value>
+            </setting>
+            <setting name="clientString" serializeAs="String">
+                <value>Corin</value>
+            </setting>
+            <setting name="courseId" serializeAs="String">
+                <value>2021999</value>
+            </setting>
+          <setting name="LogDirectory" serializeAs="String">
+            <value></value>
+          </setting>
+          <setting name="ResultActive" serializeAs="String">
+            <value>2021999</value>
+          </setting>
+          <setting name="InputActive" serializeAs="String">
+            <value>2021999</value>
+          </setting>
+          <setting name="speedMultiplier" serializeAs="String">
+            <value>5</value>
+          </setting>
+          <setting name="courseTitle" serializeAs="String">
+            <value>
+              Algebra - Statistics
+            </value>
+          </setting>
+        </FEMASeleniumm.Properties.Settings>
+    </applicationSettings>
+</configuration>

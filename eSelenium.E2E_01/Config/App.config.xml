@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<appSettings>
+
+  <!--Set ClientString to be the EP subdomain-->
+  <add key="ClientString" value="corin"/>
+  <!--Set StartServer to True to auto start Selenium-server.jar-->
+  <add key="StartServer" value="false"/>
+  <!--pqa, lm, prod -->
+  <add key="Environment" value="qaint"/>
+  <!--Set LockConfig=true to not update config from values in EnvData or EpData-->
+  <add key="LockConfig" value="true"/>
+
+  <add key="SeleniumBrowser" value="*firefox" />
+  <add key="SeleniumPort" value="4444" />
+  <add key="SeleniumHost" value="localhost" />
+  <add key="Protocol" value="http"/>
+  <add key="useSeleniumTwo" value="false" />
+  <add key="useWebBackedSelenium" value="false" />
+  <add key="groupElementTimeout" value="30" />
+
+  <add key="defaultWindow" value="null" />
+
+  <add key="BrowserStrings" value="*firefox,*iexplore,*googlechrome,*safariproxy"/>
+  
+  <!--This is where the Ep/Env data lives-->
+  <add key="EnvData" value="//EnvData//%{Environment}.xml"/>
+  <add key="EpData" value="//EpData//%{Environment}//${ClientString}.xml"/>
+  
+  <add key="IsCMSEp" value ="false" />
+  <add key="EpName" value="Commonwealth International University" />
+  <add key="ProfTitle" value="*Professor*" />
+  <add key="StudTitle" value="*Student*" />
+  <add key="TaTitle" value="*Teaching Assistant*"/>
+  <add key="AdminTitle" value="*Admin*"/>
+  <add key="DroppedTitle" value="*Drop*"/>
+
+  <add key="RealEdUsername" value="briank"/>
+  <add key="RealEdPassword" value="P@ssw0rd!"/> 
+  <add key="Password" value="123456"/>  
+  <!--<add key="ProfName" value="femaprof@ecollege.com"/>  
+  <add key="StudentName" value="femastud@ecollege.com"/>
+  <add key="StudentDisplayName" value="Student, Sireesha"/>-->  
+  <add key="TaName" value="autota"/>
+  <add key="AdminName" value="autoadmin"/>
+  <add key="MasterCourseTitle" value="The Basics"/>
+  <add key="CourseName" value="Berlin BVT Test Courses - bbtc-101"/>
+  <!--<add key="Email" value="mike@testedu.info"/>-->
+  <!--<add key="NewCourseTitle" value="TestCourse"/>-->
+  <!--<add key="CourseName" value="Test Automation Course"/>-->
+  <!--<add key="CourseName" value="CC100 Digital Vellum"/>-->
+  <add key="Unit1Name" value="Test Selenium Unit"/>
+  <add key="TermName" value="TestTermSM"/>
+  <add key="CallNumber" value="SEL001"/>
+
+	<add key="RequiresInputFile" value="false" />
+
+  <add key="RequiresResultFile" value="true" />
+  <add key="ResultFileDirectory" value="C:\SeleniumTestResults" />
+  <add key="ResultFilePrefix" value="SeleniumResults" />
+
+  <add key="RequiresLogFile" value="true" />
+  <add key="LogFileDirectory" value="C:\SeleniumTestLogs" />
+  <add key="LogFilePrefix" value="SeleniumTests" />
+  <add key="numberOfParallelTests" value="1"/>
+ 
+  <add key="NoGradebookRegressionSetup" value="false" />
+  <add key="UseBerlinWorkflow" value="true" />
+  <add key="UniqueValue" value="a12"/>
+  <add key="showDebugMessages" value="false" />
+</appSettings>

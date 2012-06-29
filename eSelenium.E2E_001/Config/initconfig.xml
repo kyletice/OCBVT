@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<appSettings>
+  <!-- Set to true if you want the test to start selenium on its own and false if you already have selenium running-->
+  <add key ="startServer" value="false"/>
+
+  <add key="seleniumBrowser" value="*firefox" />
+  <add key="seleniumPort" value="4444" />
+  <add key="seleniumHost" value="localhost" />
+  <add key="protocol" value="http" />
+
+  <!-- Logging Settings-->
+  <add key="requiresInputFile" value="false" />
+
+  <add key="requiresResultFile" value="true" />
+  <add key="resultFileDirectory" value="C:\SeleniumTestResults" />
+  <add key="resultFilePrefix" value="SeleniumResults" />
+
+  <add key="requiresLogFile" value="true" />
+  <add key="logFileDirectory" value="C:\SeleniumTestLogs" />
+  <add key="logFilePrefix" value="SeleniumTests" />
+  <add key="sppedMultiplier" value="5" />
+</appSettings>
