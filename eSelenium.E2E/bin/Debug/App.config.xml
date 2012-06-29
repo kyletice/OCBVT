@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<appSettings>
+<!--This app config contains defaults.  Copy these settings into your project config to override with your own settings-->
+  <!--Set ClientString to be the EP subdomain-->
+  <add key="ClientString" value="ciu"/>
+  <!--pqa, lm, qaint, prod -->
+  <add key="Environment" value="lm"/>
+  
+  <!--*firefox *googlechrome *safariproxy *iexplore. Uncomment any additional browsers and the test will run once per browser-->
+  <add key="SeleniumBrowser" value="*firefox" />
+  <!--<add key="SeleniumBrowser2" value="*iexplore" />
+  <add key="SeleniumBrowser3" value="*googlechrome" />
+  <add key="SeleniumBrowser4" value="*safariproxy" />-->
+
+  <!--Selenium Server options-->
+  <add key="StartServer" value="false"/>
+  <add key="StartServerWithProxy" value="false"/>
+  <add key="StartServerWithTrustSSL" value="true"/>
+  <add key="ServerVersion" value="2.21.0"/>
+
+  <!--Set LockConfig=true to not update config from values in EnvData or EpData-->
+  <add key="LockConfig" value="false"/>
+
+  <!--Selenium Config-->
+  <add key="SeleniumPort" value="4444" />
+  <add key="SeleniumHost" value="localhost" />
+  <add key="Protocol" value="http"/>
+  <add key="useSeleniumTwo" value="false" />
+  <add key="useWebBackedSelenium" value="false" />
+  
+  <!--Configuration Parameters-->
+  <add key="groupElementTimeout" value="5" />
+  <add key="numberOfParallelTests" value="1"/>
+  <add key="TimeoutMS" value="30000"/>
+  <add key="SpeedMultiplier" value="1.0"/>
+  <add key="defaultWindow" value="null" />
+  
+  <!--Features available to be turned on in your project config-->
+  <add key="ValidatePages" value="true"/>
+  <add key="showDebugMessages" value="false"/>
+  <add key="StoreConsoleMessages" value="false"/>
+  <add key="LogHttpTraffic" value="false" />
+  <add key="ValidateHttpTraffic" value="false" />
+  <add key="CopyCSVToFolder" value="" />
+  
+  <!---this is default course info.  Do not modify, use your project config file-->
+  <add key="IsCMSEp" value ="false" />
+  <add key="EpName" value="Commonwealth International University" />
+  <add key="ProfTitle" value="*Professor*" />
+  <add key="StudTitle" value="CIU Student*" />
+  <add key="TaTitle" value="*Teaching Assistant*"/>
+  <add key="AdminTitle" value="*Admin*"/>
+  <add key="DroppedTitle" value="*Drop*"/>
+
+  <add key="RealEdUsername" value="briank"/>
+  <add key="RealEdPassword" value="P@ssw0rd!"/>
+  <add key="StudentName" value="autostud"/>
+  <add key="ProfName" value="autoprof"/>
+  <add key="TaName" value="autota"/>
+  <add key="AdminName" value="autoadmin"/>
+
+  <add key="CourseName" value="Test Selenium Course"/>
+  <add key="Unit1Name" value="Test Selenium Unit"/>
+  <add key="TermName" value="Test Selenium Term"/>
+  <add key="CallNumber" value="SEL001"/>
+  <add key="UniqueValue" value="1234"/>
+
+  <add key="cbomName" value="CCNG_Chat_Scheduler.cbom"/>
+</appSettings>

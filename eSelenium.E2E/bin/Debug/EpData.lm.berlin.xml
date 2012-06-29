@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<appSettings>
+  <add key="clientString" value="Berlin"/>
+  <add key="isCMSEp" value ="false"/>
+  <add key="EpName" value="Berlin Test Institution"/>
+  <add key="IsCMSEp" value ="false" />
+  <add key="ProfTitle" value="*Professor*" />
+  <add key="StudTitle" value="CIU Student*" />
+  <add key="TaTitle" value="*Teaching Assistant*"/>
+  <add key="AdminTitle" value="*Admin*"/>
+  <add key="DroppedTitle" value="*Drop*"/>
+</appSettings>

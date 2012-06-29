@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<appSettings>
+  <add key="EnvDomain" value=".ecollege-labs.com"/>
+  <add key="RealEdPassword" value="Blitz207!"/>
+  <add key="TimeoutMS" value="30000"/>
+  <add key="SpeedMultiplier" value="1.0"/>
+  <add key="OCSuperAdminName" value="ocsuperadmin5@ecollege.com"/>
+  <add key="OCSuperAdminPassword" value="12345"/>
+</appSettings>

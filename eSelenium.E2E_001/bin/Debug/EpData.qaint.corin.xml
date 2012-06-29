@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<appSettings>
+  <add key="clientString" value="corin"/>
+  <add key="IsCMSEp" value ="false"/>
+  <add key="epName" value="Corinthian Colleges"/>
+  <add key="profTitle" value="CCI Professor"/>
+  <add key="studTitle" value="*CCI Student"/>
+  <add key="taTitle" value="CCI Teaching Assistant"/>
+  <add key="adminTitle" value="Admin*"/>
+  <add key="droppedTitle" value="*Dropped*"/>
+  <add key="prodUrl" value="onlinecci.com"/>
+</appSettings>
